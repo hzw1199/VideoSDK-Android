@@ -14,3 +14,9 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RealTimeStream"
 include ':app'
+
+include ':fflibrary'
+include ':medialibrary'
+
+project(':fflibrary').projectDir = new File('./coollibrary/ff')
+project(':medialibrary').projectDir = new File('./coollibrary/media')

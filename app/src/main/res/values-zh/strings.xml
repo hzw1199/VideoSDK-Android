@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RTS</string>
+
+    <string name="take_photo">拍照</string>
+    <string name="record_start">开始录像</string>
+    <string name="record_stop">停止录像</string>
+    <string name="hw_decoders">编解码器</string>
+    <string name="mock_video">Mock视频流</string>
+    <string name="hw_decode">硬解码</string>
+
+    <string name="restart_to_work">APP重启之后生效</string>
+    <string name="ok">确定</string>
+    <string name="take_photo_success">拍照成功</string>
+    <string name="take_photo_fail">拍照失败</string>
+    <string name="take_photo_tip">>=N的系统版本，才可以在%s模式下拍照。请使用FF_GL_SURFACE模式</string>
+    <string name="record_success">录像成功</string>
+    <string name="record_fail">录像失败</string>
+    <string name="record_ing">当前正在录制</string>
+    <string name="record_not_playing">当前没有在播放</string>
+
+    <string name="permission_tip">提示</string>
+    <string name="permission_msg">当前应用缺少必要权限。
+
+请点击"设置"-"权限"-打开所需权限</string>
+    <string name="permission_cancel">取消</string>
+    <string name="permission_set">设置</string>
+
+    <string name="play">播放</string>
+    <string name="stop">停止</string>
+    <string name="url_error">视频地址错误</string>
+    <string name="surface_unavailable">初始化未完成，请重试</string>
+    <string name="sw_decode">进入软解模式 %d</string>
+    <string name="video_url">视频地址</string>
+    <string name="decode_mode_hw">硬解</string>
+    <string name="decode_mode_sw">软解</string>
+</resources>

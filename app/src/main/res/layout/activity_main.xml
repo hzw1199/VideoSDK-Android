@@ -2,17 +2,140 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_blue"
     tools:context=".MainActivity">
 
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        android:translationZ="1px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        android:translationZ="1px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
+        android:id="@+id/tv_bitrate_video"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/holo_green_light"
+        android:translationZ="1px"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="13 M/S" />
+
+    <ScrollView
+        android:id="@+id/sv_operate"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:translationZ="4px"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bitrate_video">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_shot"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:onClick="onClick"
+                android:text="@string/take_photo" />
+
+            <Button
+                android:id="@+id/btn_start_record"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:onClick="onClick"
+                android:text="@string/record_start" />
+
+            <Button
+                android:id="@+id/btn_stop_record"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:onClick="onClick"
+                android:text="@string/record_stop" />
+
+            <Button
+                android:id="@+id/btn_hw_decoder"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:onClick="onClick"
+                android:text="@string/hw_decoders" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_mock_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/white"
+                android:text="@string/mock_video" />
+
+            <Spinner
+                android:id="@+id/sp_decode_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginTop="4dp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_hw_decode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/white"
+                android:text="@string/hw_decode" />
+
+            <Button
+                android:id="@+id/btn_rtsp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:onClick="onClick"
+                android:text="RTSP" />
+
+            <Button
+                android:id="@+id/btn_rtsp_multi"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:onClick="onClick"
+                android:text="RTSP multi" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/widget_map"
+        android:layout_width="@dimen/mini_map_width"
+        android:layout_height="@dimen/mini_map_height"
+        android:layout_marginRight="@dimen/mini_map_margin_right"
+        android:layout_marginBottom="@dimen/mini_map_margin_bottom"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="MAP"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:translationZ="3px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

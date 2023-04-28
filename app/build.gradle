@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "pro.zongheng.realtimestream.demo"
-        minSdk 16
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -26,13 +26,31 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    signingConfigs {
+        debug {
+            keyAlias 'demo'
+            keyPassword '123456'
+            storeFile file('../keystore')
+            storePassword '123456'
+        }
+        release {
+            keyAlias 'demo'
+            keyPassword '123456'
+            storeFile file('../keystore')
+            storePassword '123456'
+        }
+    }
 }
 
 dependencies {
 
+    implementation project(path: ':fflibrary')
+    implementation project(path: ':medialibrary')
+
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.blankj:utilcodex:1.30.6'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'

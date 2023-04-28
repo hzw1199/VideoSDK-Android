@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">RealTimeStream</string>
+    <string name="app_name">RTS</string>
+
+    <string name="take_photo">Take photo</string>
+    <string name="record_start">Start record</string>
+    <string name="record_stop">Stop record</string>
+    <string name="hw_decoders">HW Decoders</string>
+    <string name="mock_video">Mock stream</string>
+    <string name="hw_decode">HW Decode</string>
+
+    <string name="restart_to_work">It takes effect after restarting the APP</string>
+    <string name="ok">OK</string>
+    <string name="take_photo_success">Take pictures successfully</string>
+    <string name="take_photo_fail">Failed to take pictures</string>
+    <string name="take_photo_tip">Only system version >=N can take pictures in %s mode. Please use FF_GL_SURFACE mode</string>
+    <string name="record_success">Recorded successfully</string>
+    <string name="record_fail">Recording failed</string>
+    <string name="record_ing">Currently recording</string>
+    <string name="record_not_playing">Not currently playing</string>
+
+    <string name="permission_tip">Tip</string>
+    <string name="permission_msg">Current application lacks necessary permissions.
+
+Please click "Settings" - "Permissions" - open the required permissions</string>
+    <string name="permission_cancel">Cancel</string>
+    <string name="permission_set">Set</string>
+
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="url_error">Video url error</string>
+    <string name="surface_unavailable">Initialization not completed, please try again</string>
+    <string name="sw_decode">Enter soft decoding mode %d</string>
+    <string name="video_url">Video url</string>
+    <string name="decode_mode_hw">HW</string>
+    <string name="decode_mode_sw">SW</string>
 </resources>

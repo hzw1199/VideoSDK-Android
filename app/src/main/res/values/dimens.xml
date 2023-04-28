@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="mini_map_height">48dp</dimen>
+    <dimen name="mini_map_width">80dp</dimen>
+    <dimen name="mini_map_margin_right">12dp</dimen>
+    <dimen name="mini_map_margin_bottom">36dp</dimen>
+</resources>
