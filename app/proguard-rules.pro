@@ -19,3 +19,11 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#ff
+-keep class com.wuadam.fflibrary.** { *; }
+-keep class com.wuadam.ff.** { *; }
+
+#media
+-keep class com.wuadam.medialibrary.** { *; }
+-keep class com.wuadam.media.** { *; }
