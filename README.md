@@ -1,10 +1,18 @@
-# RealTimeStream-Android
+<h1 align="center">
+  <br>
+  <a href="http://videosdk.org/"><img src="https://raw.githubusercontent.com/hzw1199/RealTimeStream-Android/master/art/RTS.png" alt="RTS" width="200"></a>
+  <br>
+  <b>RealTimeStream-Android</b>
+  <br>
+</h1>
+
+
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 
-UAV (drone, vehicle, boat) ground station video solution, providing high-performance, easy-to-use and reliable video access capabilities for ground stations.
+UAV (drone, vehicle, boat) ground station video solution, RTSP multi-channel low latency video solution, providing high-performance, easy-to-use and reliable video access capabilities.
 
 [中文看这里](/READMEcn.md)  
 
@@ -23,16 +31,18 @@ UAV (drone, vehicle, boat) ground station video solution, providing high-perform
 
 ## Demo
 Click the screenshot to watch the video
-#### Buffr decode
-[![sample](/art/sample.jpg)](https://youtu.be/G3Jrwr5MDks)
+#### Low latency
+[![sample](/art/sample5.jpg)](https://youtu.be/mwLuzPclsQM)
+#### Buffer decode
+[![sample](/art/sample.jpg)](https://youtu.be/mwLuzPclsQM)
 #### Multi mode for buffer
-[![sample](/art/sample1.jpg)](https://youtu.be/G3Jrwr5MDks)
+[![sample](/art/sample1.jpg)](https://youtu.be/mwLuzPclsQM)
 #### RTSP
-[![sample](/art/sample2.jpg)](https://youtu.be/G3Jrwr5MDks)
+[![sample](/art/sample2.jpg)](https://youtu.be/mwLuzPclsQM)
 #### Multi mode for RTSP
-[![sample](/art/sample3.jpg)](https://youtu.be/G3Jrwr5MDks)
+[![sample](/art/sample3.jpg)](https://youtu.be/mwLuzPclsQM)
 #### Multi channel
-[![sample](/art/sample4.jpg)](https://youtu.be/G3Jrwr5MDks)
+[![sample](/art/sample4.jpg)](https://youtu.be/mwLuzPclsQM)
 
 ## Download
 [Download apk](https://github.com/hzw1199/RealTimeStream-Android/releases)

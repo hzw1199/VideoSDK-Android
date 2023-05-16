@@ -1,10 +1,18 @@
-# RealTimeStream-Android
+<h1 align="center">
+  <br>
+  <a href="http://videosdk.org/"><img src="https://raw.githubusercontent.com/hzw1199/RealTimeStream-Android/master/art/RTS.png" alt="RTS" width="200"></a>
+  <br>
+  <b>RealTimeStream-Android</b>
+  <br>
+</h1>
+
+
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 
-无人机（车、艇）地面站视频解决方案，为地面站提供高性能、易用、可靠的视频接入能力
+无人机（车、艇）地面站视频解决方案，RTSP 多路低延迟拉流解决方案，提供高性能、易用、可靠的视频接入能力
 
 ## 特性
 
@@ -22,16 +30,18 @@
 
 ## 截图和视频
 点击截图看视频
-#### Buffr 裸流解码
-[![sample](/art/sample.jpg)](https://youtu.be/G3Jrwr5MDks)
-#### Buffr 裸流解码提供多种模式
-[![sample](/art/sample1.jpg)](https://youtu.be/G3Jrwr5MDks)
+#### 低延迟
+[![sample](/art/sample5.jpg)](https://youtu.be/mwLuzPclsQM)
+#### Buffer 裸流解码
+[![sample](/art/sample.jpg)](https://youtu.be/mwLuzPclsQM)
+#### Buffer 裸流解码提供多种模式
+[![sample](/art/sample1.jpg)](https://youtu.be/mwLuzPclsQM)
 #### RTSP 拉流
-[![sample](/art/sample2.jpg)](https://youtu.be/G3Jrwr5MDks)
+[![sample](/art/sample2.jpg)](https://youtu.be/mwLuzPclsQM)
 #### RTSP 拉流提供多种模式
-[![sample](/art/sample3.jpg)](https://youtu.be/G3Jrwr5MDks)
+[![sample](/art/sample3.jpg)](https://youtu.be/mwLuzPclsQM)
 #### 多路
-[![sample](/art/sample4.jpg)](https://youtu.be/G3Jrwr5MDks)
+[![sample](/art/sample4.jpg)](https://youtu.be/mwLuzPclsQM)
 
 ## 下载体验
 [下载apk](https://github.com/hzw1199/RealTimeStream-Android/releases)
