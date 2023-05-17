@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="http://videosdk.org/"><img src="https://raw.githubusercontent.com/hzw1199/RealTimeStream-Android/master/art/RTS.png" alt="RTS" width="200"></a>
+  <a href="http://videosdk.org/"><img src="https://raw.githubusercontent.com/hzw1199/VideoSDK-Android/master/art/RTS.png" alt="RTS" width="200"></a>
   <br>
-  <b>RealTimeStream-Android</b>
+  <b>VideoSDK-Android</b>
   <br>
 </h1>
 
@@ -45,7 +45,7 @@ Click the screenshot to watch the video
 [![sample](/art/sample4.jpg)](https://youtu.be/mwLuzPclsQM)
 
 ## Download
-[Download apk](https://github.com/hzw1199/RealTimeStream-Android/releases)
+[Download apk](https://github.com/hzw1199/VideoSDK-Android/releases)
 
 ## Proguard
 No need to add more proguard rules.
@@ -64,7 +64,7 @@ No need to add more proguard rules.
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 RealTimeStream-Android
+Copyright (c) 2023 VideoSDK-Android
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
