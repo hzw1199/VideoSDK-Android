@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://videosdk.org/"><img src="https://raw.githubusercontent.com/hzw1199/VideoSDK-Android/master/art/RTS.png" alt="RTS" width="200"></a>
+  <a href="https://videosdk.org/"><img src="https://raw.githubusercontent.com/hzw1199/VideoSDK-Android/master/art/RTS.png" alt="RTS" width="200"></a>
   <br>
   <b>VideoSDK-Android</b>
   <br>
@@ -17,40 +17,42 @@
 ## 特性
 
 
-* 100ms左右低延迟，实时观看无人机拍摄的画面，不会错过任何精彩瞬间。
-* 支持多种视频格式，包括h264和h265，无需担心视频兼容性问题。
-* 支持硬解码和硬解码失败时自动降级软解码，可以根据你的设备性能和需求选择合适的解码方式，节省电量。
+* 100ms左右低延迟。
+* 支持多种视频格式，包括h264和h265。
+* 支持硬解码和硬解码失败时自动降级软解码。
 * 支持buffer视频裸流和RTSP视频源，多种视频源轻松接入。
 * 支持对视频流拍照和录像，可以随时保存和分享你的无人机视角。
-* 支持最多五路视频同时解码渲染，可以同时观看多个无人机的画面，实现多任务管理。
+* 支持最多五路视频同时解码渲染，实现多任务管理。
 * 简易的API，只需几行代码，就可以实现视频的解码和渲染，无需复杂的配置和调试。
 * 完备的demo，提供了详细的使用说明和示例代码，快速上手和学习。
-* 提供ffmpeg、OpenGL和MediaCodec等多种解码渲染模式，可以根据你的视频源和设备性能选择最合适的模式。
+* 提供ffmpeg、OpenGL和MediaCodec等多种解码渲染模式。
 * 持续的后续升级，我们会不断改进和优化我们的方案，提供更多的功能和更好的体验。
 
-## 截图和视频
-点击截图看视频
-#### 低延迟
-[![sample](/art/sample5.jpg)](https://youtu.be/mwLuzPclsQM)
-#### Buffer 裸流解码
-[![sample](/art/sample.jpg)](https://youtu.be/mwLuzPclsQM)
-#### Buffer 裸流解码提供多种模式
-[![sample](/art/sample1.jpg)](https://youtu.be/mwLuzPclsQM)
-#### RTSP 拉流
-[![sample](/art/sample2.jpg)](https://youtu.be/mwLuzPclsQM)
-#### RTSP 拉流提供多种模式
-[![sample](/art/sample3.jpg)](https://youtu.be/mwLuzPclsQM)
-#### 多路
-[![sample](/art/sample4.jpg)](https://youtu.be/mwLuzPclsQM)
-
-## 下载体验
+## 下载apk体验
 [下载apk](https://github.com/hzw1199/VideoSDK-Android/releases)
 
+## 截图和视频
+点击图片看视频
+#### 低延迟
+[![sample](/art/sample5.jpg)](https://youtu.be/mwLuzPclsQM)
+#### Buffer 裸流硬解码
+[![sample](/art/sample6.jpg)](https://youtu.be/mwLuzPclsQM)
+#### RTSP 拉流硬解码
+[![sample](/art/sample7.jpg)](https://youtu.be/mwLuzPclsQM)
+#### 多路播放
+[![sample](/art/sample8.jpg)](https://youtu.be/mwLuzPclsQM)
+
 ## 混淆
-无需配置混淆规则
+```
+-keep class com.wuadam.fflibrary.** { *; }
+-keep class com.wuadam.ff.** { *; }
+-keep class com.wuadam.medialibrary.** { *; }
+-keep class com.wuadam.media.** { *; }
+```
 
 ## Tip
 
+* 商业使用，请联系 contact@zongheng.pro
 * 若对你有帮助请加星
 
 ## About Me
