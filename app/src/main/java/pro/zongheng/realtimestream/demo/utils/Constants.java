@@ -11,6 +11,10 @@ public class Constants {
     public static final String PREF_DECODE_MODE_RTSP = "PREF_DECODE_MODE_RTSP";
 
     public static final String PREF_RTSP_URI = "RTSP_URI";
+    public static final String PREF_MULTI_RTSP_URI_1 = "PREF_MULTI_RTSP_URI_1";
+    public static final String PREF_MULTI_RTSP_URI_2 = "PREF_MULTI_RTSP_URI_2";
+    public static final String PREF_MULTI_RTSP_URI_3 = "PREF_MULTI_RTSP_URI_3";
+    public static final String PREF_MULTI_RTSP_URI_4 = "PREF_MULTI_RTSP_URI_4";
 
     public static final int DECODE_MODE_FF_SURFACE = 0;
     public static final int DECODE_MODE_FF_GL_SURFACE = 1;

@@ -33,4 +33,11 @@ Please click "Settings" - "Permissions" - open the required permissions</string>
     <string name="video_url">Video url</string>
     <string name="decode_mode_hw">HW</string>
     <string name="decode_mode_sw">SW</string>
+
+    <string-array name="channel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 </resources>
